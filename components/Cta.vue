@@ -5,7 +5,7 @@
       {{ $t("homepage.contact-me-now-title") }}
     </p>
     <div class="flex mt-5">
-      <Customlink href="#" styleName="inverted">{{ $t("homepage.contact-me-now-cta") }}</Customlink>
+      <Customlink href="/contact" styleName="inverted">{{ $t("homepage.contact-me-now-cta") }}</Customlink>
     </div>
   </div>
 </template>
