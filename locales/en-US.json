@@ -1,0 +1,32 @@
+{
+  "navbar": {
+    "all-blogs": "All Blogs",
+    "about": "About",
+    "contact-me": "Contact me"
+  },
+  "language-switcher": {
+    "language": "Language"
+  },
+  "homepage": {
+    "hero-heading": "Almonzer Blog Your Gateway to Tech Insights",
+    "hero-description": "At Almonzer, we dive into the dynamic world of technology, providing you with thought-provoking articles, in-depth analyses, and the latest updates. Explore our content to stay connected globally.",
+    "go-blogs": "Go to Blogs",
+    "interested-about-me": "Interested about me?",
+    "latest-blogs": "Latest Blogs",
+    "technologies": "Works with your technologies",
+    "interested-about-my-work": "Interested about my work?",
+    "contact-me-now-title": "Don't miss the opportunity and contact me now!",
+    "contact-me-now-cta": "CONTACT ME NOW!"
+  },
+  "about": {
+    "about-title": "About us",
+    "small-team": "We are a small passionate team.",
+    "empower": "Empowering the world with technologies.",
+    "about-me": "I am a solo adventurer who loves to explore new horizons and challenges! I work from anywhere in the world, using my trusty laptop and the power of the internet. This is what makes me so flexible and adaptable. 😊",
+    "software-engineer": "Software Engineer",
+    "my-laptop": "My Laptop",
+    "operations": "Head of Operations",
+    "internet": "The Internet",
+    "pr": "Head of P.R."
+  }
+}

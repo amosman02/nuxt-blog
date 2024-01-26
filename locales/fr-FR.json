@@ -1,0 +1,32 @@
+{
+  "navbar": {
+    "all-blogs": "Tous les blogs",
+    "about": "À propos",
+    "contact-me": "Contactez-moi"
+  },
+  "language-switcher": {
+    "language": "Langue"
+  },
+  "homepage": {
+    "hero-heading": "Blog Almonzer Votre Porte d'Accès aux Perspectives Technologiques",
+    "hero-description": "Chez Almonzer, nous plongeons dans le monde dynamique de la technologie, en vous proposant des articles stimulants, des analyses approfondies et les dernières mises à jour. Explorez notre contenu pour rester connecté à l'échelle mondiale.",
+    "go-blogs": "Aller aux blogs",
+    "interested-about-me": "Intéressé par moi ?",
+    "latest-blogs": "Derniers Blogs",
+    "technologies": "Fonctionne avec vos technologies",
+    "interested-about-my-work": "Intéressé par mon travail ?",
+    "contact-me-now-title": "Ne manquez pas l'occasion et contactez-moi maintenant !",
+    "contact-me-now-cta": "CONTACTEZ-MOI MAINTENANT !"
+  },
+  "about": {
+    "about-title": "À propos de nous",
+    "small-team": "Nous sommes une petite équipe passionnée.",
+    "empower": "Donner du pouvoir au monde avec les technologies.",
+    "about-me": "Je suis un aventurier solitaire qui aime explorer de nouveaux horizons et défis ! Je travaille de n'importe où dans le monde, en utilisant mon fidèle ordinateur portable et la puissance d'internet. C'est ce qui me rend si flexible et adaptable. 😊",
+    "software-engineer": "Ingénieur Logiciel",
+    "my-laptop": "Mon Ordinateur Portable",
+    "operations": "Responsable des Opérations",
+    "internet": "Internet",
+    "pr": "Responsable des Relations Publiques"
+  }
+}
