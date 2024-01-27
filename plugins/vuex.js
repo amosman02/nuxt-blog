@@ -67,20 +67,6 @@ const store = createStore({
       return state.blogs.find((post) => post.slug === slug);
     },
   },
-  mutations: {
-    addTodo(state, todo) {
-      state.todos.push(todo);
-    },
-  },
-  actions: {
-    async fetchTodos({ commit }) {
-      const response = await fetch(
-        "https://jsonplaceholder.typicode.com/todos"
-      );
-      const data = await response.json();
-      commit("addTodo", data);
-    },
-  },
 });
 
 export default defineNuxtPlugin((nuxtApp) => {
