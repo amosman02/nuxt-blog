@@ -57,6 +57,7 @@ const store = createStore({
       return state.blogs.find((post) => post.slug === slug);
     },
   },
+<<<<<<< HEAD
   mutations: {
     addBlog(state, payload) {
       state.blogs = state.blogs.push(payload);
@@ -67,6 +68,8 @@ const store = createStore({
       context.commit("addBlog", payload);
     },
   },
+=======
+>>>>>>> 02ce62046784ad79c0f1aa915695fee5719aecd7
 });
 
 export default defineNuxtPlugin((nuxtApp) => {
