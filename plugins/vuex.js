@@ -6,8 +6,6 @@ const store = createStore({
       blogs: [
         {
           title: "Beginner's Guide to Vue.js: Building Your First App",
-          author: "Jane Doe",
-          publishDate: "January 26, 2024",
           slug: "beginners-guide-to-vuejs-building-your-first-app",
           image:
             "https://media.geeksforgeeks.org/wp-content/uploads/20240103164616/Vuejs-Tutorial.png",
@@ -16,8 +14,6 @@ const store = createStore({
         },
         {
           title: "Demystifying Vuex: Simplified State Management in Vue.js",
-          author: "John Smith",
-          publishDate: "January 28, 2024",
           slug: "demystifying-vuex-simplified-state-management-in-vuejs",
           image:
             "https://miro.medium.com/v2/resize:fit:1000/1*9H6N8KnK6bzubOrLswANjg.png",
@@ -27,8 +23,6 @@ const store = createStore({
         {
           title:
             "Deep Dive into Nuxt.js: Building Universal Vue.js Applications",
-          author: "Emily Rogers",
-          publishDate: "February 2, 2024",
           slug: "deep-dive-into-nuxtjs-building-universal-vuejs-applications",
           image:
             "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230313161021/NUXT.js-tutorial.png",
@@ -37,8 +31,6 @@ const store = createStore({
         },
         {
           title: "Streamlining Vue.js Deployment: A Guide to Netlify Hosting",
-          author: "Michael Johnson",
-          publishDate: "February 5, 2024",
           slug: "streamlining-vuejs-deployment-a-guide-to-netlify-hosting",
           image:
             "https://149842345.v2.pressablecdn.com/wp-content/uploads/2023/08/netlify-cloud-hosting-platform.jpg",
@@ -48,8 +40,6 @@ const store = createStore({
         {
           title:
             "Elevating Vue.js UIs with Tailwind CSS: A Comprehensive Guide",
-          author: "Sarah Williams",
-          publishDate: "February 9, 2024",
           slug: "elevating-vuejs-uis-with-tailwind-css-a-comprehensive-guide",
           image:
             "https://www.copycat.dev/blog/wp-content/uploads/2022/11/tailwind.png",
@@ -68,17 +58,13 @@ const store = createStore({
     },
   },
   mutations: {
-    addTodo(state, todo) {
-      state.todos.push(todo);
+    addBlog(state, payload) {
+      state.blogs = state.blogs.push(payload);
     },
   },
   actions: {
-    async fetchTodos({ commit }) {
-      const response = await fetch(
-        "https://jsonplaceholder.typicode.com/todos"
-      );
-      const data = await response.json();
-      commit("addTodo", data);
+    addBlog(context, payload) {
+      context.commit("addBlog", payload);
     },
   },
 });

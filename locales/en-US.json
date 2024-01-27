@@ -28,5 +28,20 @@
     "operations": "Head of Operations",
     "internet": "The Internet",
     "pr": "Head of P.R."
+  },
+  "contact": {
+    "contact-me": "Contact me",
+    "reach-to-me": "Reach to me with now!",
+    "full-name": "Full Name",
+    "provide-full-name": "Please provide your full name.",
+    "email-address": "Email Address",
+    "provide-email-address": "Please provide your email address.",
+    "your-message": "Your Message",
+    "enter-message": "Please enter your message.",
+    "send-message": "Send Message"
+  },
+  "blogs": {
+    "read-more": "Read more",
+    "add-blog": "Add blog"
   }
 }

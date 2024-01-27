@@ -1,8 +1,12 @@
+<script setup>
+const localPath = useLocalePath();
+</script>
+
 <template>
   <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
     <div class="p-24 md:order-1 hidden md:block">
       <img class="rounded-full transition-transform transform hover:scale-125" src="~/assets/img/hero.jpg"
-        alt="Starship starts the engine" loading="eager" format="avif" width="512" height="512" />
+        alt="Technology image" loading="eager" format="avif" width="512" height="512" />
     </div>
 
     <div>
@@ -13,9 +17,10 @@
         {{ $t("homepage.hero-description") }}
       </p>
       <div class="mt-6 flex flex-col sm:flex-row gap-3">
-        <Customlink href="/blogs" rel="noopener">{{ $t("homepage.go-blogs") }}
+        <Customlink :href="localPath('/blogs')" rel="noopener">{{ $t("homepage.go-blogs") }}
         </Customlink>
-        <Customlink size="lg" styleName="outline" rel="noopener" href="/about">{{ $t("homepage.interested-about-me") }}
+        <Customlink size="lg" styleName="outline" rel="noopener" :href="localPath('/about')">{{
+          $t("homepage.interested-about-me") }}
         </Customlink>
       </div>
     </div>

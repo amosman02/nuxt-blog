@@ -1,6 +1,6 @@
 <script setup>
 const blogs = defineProps(["blogs", "title"]);
-// const sectionTitle = defineProps([]);
+
 const latestBlogs = blogs.blogs;
 
 </script>

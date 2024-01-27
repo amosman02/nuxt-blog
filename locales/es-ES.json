@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "all-blogs": "Todos los blogs",
+    "all-blogs": "Todos los Blogs",
     "about": "Acerca de",
     "contact-me": "Contáctame"
   },
@@ -8,10 +8,10 @@
     "language": "Idioma"
   },
   "homepage": {
-    "hero-heading": "Blog Almonzer Tu Puerta de Acceso a Perspectivas Tecnológicas",
-    "hero-description": "En Almonzer, exploramos el dinámico mundo de la tecnología, brindándote artículos estimulantes, análisis profundos y las últimas actualizaciones. Explora nuestro contenido para mantenerte conectado a nivel global.",
-    "go-blogs": "Ir a los blogs",
-    "interested-about-me": "¿Interesado en saber sobre mí?",
+    "hero-heading": "Blog Almonzer Tu Puerta a las Perspectivas Tecnológicas",
+    "hero-description": "En Almonzer, exploramos el dinámico mundo de la tecnología, brindándote artículos que te hagan reflexionar, análisis profundos y las últimas actualizaciones. Explora nuestro contenido para mantenerte conectado a nivel global.",
+    "go-blogs": "Ir a Blogs",
+    "interested-about-me": "¿Interesado en mí?",
     "latest-blogs": "Últimos Blogs",
     "technologies": "Funciona con tus tecnologías",
     "interested-about-my-work": "¿Interesado en mi trabajo?",
@@ -19,14 +19,29 @@
     "contact-me-now-cta": "¡CONTÁCTAME AHORA!"
   },
   "about": {
-    "about-title": "Sobre nosotros",
+    "about-title": "Sobre Nosotros",
     "small-team": "Somos un equipo pequeño y apasionado.",
     "empower": "Empoderando al mundo con tecnologías.",
-    "about-me": "¡Soy un aventurero solitario que ama explorar nuevos horizontes y desafíos! Trabajo desde cualquier lugar del mundo, utilizando mi fiel portátil y el poder de internet. Esto es lo que me hace tan flexible y adaptable. 😊",
+    "about-me": "¡Soy un aventurero solitario que ama explorar nuevos horizontes y desafíos! Trabajo desde cualquier lugar del mundo, utilizando mi confiable portátil y el poder de internet. Esto es lo que me hace tan flexible y adaptable. 😊",
     "software-engineer": "Ingeniero de Software",
     "my-laptop": "Mi Portátil",
     "operations": "Jefe de Operaciones",
     "internet": "Internet",
     "pr": "Jefe de Relaciones Públicas"
+  },
+  "contact": {
+    "contact-me": "Contáctame",
+    "reach-to-me": "¡Contáctame ahora mismo!",
+    "full-name": "Nombre Completo",
+    "provide-full-name": "Por favor proporciona tu nombre completo.",
+    "email-address": "Dirección de Correo Electrónico",
+    "provide-email-address": "Por favor proporciona tu dirección de correo electrónico.",
+    "your-message": "Tu Mensaje",
+    "enter-message": "Por favor ingresa tu mensaje.",
+    "send-message": "Enviar Mensaje"
+  },
+  "blogs": {
+    "read-more": "Leer más",
+    "add-blog": "Agregar blog"
   }
 }
