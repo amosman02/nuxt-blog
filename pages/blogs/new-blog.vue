@@ -9,6 +9,8 @@ const blogTitle = ref("");
 const blogImage = ref("");
 const blogContent = ref("");
 
+const localPath = useLocalePath();
+
 const addBlog = () => {
   const slug = slugify(blogTitle.value, {
     replacement: '-',
@@ -26,9 +28,6 @@ const addBlog = () => {
   }
 
   store.dispatch("addBlog", { newBlog });
-
-  const localPath = useLocalePath();
-  localPath("/blogs");
 }
 </script>
 
@@ -37,7 +36,7 @@ const addBlog = () => {
     <section class="bg-white">
       <div class="py-8 px-4 mx-auto max-w-2xl lg:py-16">
         <h2 class="mb-4 text-xl font-bold text-gray-900">Add a new blog</h2>
-        <form @submit.prevent="addBlog">
+        <form @submit="addBlog" :action="localPath('/blogs')">
           <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
             <div class="sm:col-span-2">
               <label for="title" class="block mb-2 text-sm font-medium text-gray-900">Blog title</label>
