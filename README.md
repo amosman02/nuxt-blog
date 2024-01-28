@@ -1,89 +1,87 @@
-# Nuxtship - Nuxt SAAS Starter Website Template
+# Nuxt.js Blog Application with Vuex and Localization
 
-Nuxtship is a free starter nuxt website template for saas, startups, marketing websites & landing pages. Built with Nuxt & TailwindCSS.
+This project is a blog application built using Nuxt.js framework with Vuex for state management and localization support for multiple languages using nuxt/i18n.
 
-This Free Template is sponsored by [Gr33nW33n](https://github.com/Gr33nW33n)
+---
 
-If you like my work please feel free to
+## Features
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jakobaichmayr)
+- View a list of blog posts
+- Read individual blog posts
+- Add new blog posts
+- Manage state using Vuex
+- Support localization for at least two languages
 
-## Live Demo
-
-**[https://nuxtship.netlify.app/](https://nuxtship.netlify.app/)**
-
-## Built with Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+---
 
 ## Setup
 
-Make sure to install the dependencies:
+1. Clone the repository:
 
-```bash
-# npm
-npm install
+   ```bash
+   git clone https://github.com/amosman02/nuxt-blog.git
+   ```
 
-# pnpm
-pnpm install
+2. Navigate to the project directory:
 
-# yarn
-yarn install
+   ```bash
+   cd nuxt-blog
+   ```
 
-# bun
-bun install
-```
+3. Install dependencies:
 
-## Development Server
+   ```bash
+   npm install
+   ```
 
-Start the development server on `http://localhost:3000`:
+4. Run the development server:
 
-```bash
-# npm
-npm run dev
+   ```bash
+   npm run dev
+   ```
 
-# pnpm
-pnpm run dev
+5. Open your web browser and navigate to http://localhost:3000 to view the application.
 
-# yarn
-yarn dev
+---
 
-# bun
-bun run dev
-```
+## Vuex Store
 
-## Production
+The Vuex store manages the state of the application, including blog posts and localization settings.
 
-Build the application for production:
+`plugins/vuex.js`: Contains the Vuex store configuration, mutations, actions, and initial state.
 
-```bash
-# npm
-npm run build
+---
 
-# pnpm
-pnpm run build
+## Localization
 
-# yarn
-yarn build
+The application supports localization for multiple languages using the nuxt-i18n module.
 
-# bun
-bun run build
-```
+Configuration for localization settings can be found in `nuxt.config.js`.
 
-Locally preview production build:
+Language files are stored in the `locales` directory.
 
-```bash
-# npm
-npm run preview
+---
 
-# pnpm
-pnpm run preview
+## Pages
 
-# yarn
-yarn preview
+`pages/index.vue`: The homepage which have a brief about the website and latest blogs.
 
-# bun
-bun run preview
-```
+`pages/blogs/index.vue`: Displays a list of all blog posts.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+`pages/blogs/[slug].vue`: Displays an individual blog post based on the slug in the URL.
+
+`pages/about.vue`: About page providing information about the project or the team.
+
+`pages/contact.vue`: Contact page providing contact information or a contact form.
+
+---
+
+## Styling
+
+The application uses Tailwind CSS for styling.
+
+---
+
+## Contributing
+
+Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests.
