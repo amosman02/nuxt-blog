@@ -81,7 +81,3 @@ Language files are stored in the `locales` directory.
 The application uses Tailwind CSS for styling.
 
 ---
-
-## Contributing
-
-Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests.
